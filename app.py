@@ -17,7 +17,7 @@ Ingresa tu edad y nivel de colesterol para obtener una predicción basada en int
 
 # --- IMAGEN ---
 image_url = "https://images.ecestaticos.com/aTyeFebpQ-BqHJ7FIQjnjzcN2og=/334x4:1953x1213/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fb9e%2Fd37%2F516%2Fb9ed3751689578efdbb19ed1b8b401e9.jpg"
-st.image(image_url, caption="Imagen de referencia sobre problemas cardíacos", use_column_width=True)
+st.image(image_url, caption="Imagen de referencia sobre problemas cardíacos", use_container_width=True)
 
 # --- ENTRADA DE DATOS ---
 st.sidebar.header("📊 Ingrese los datos")
